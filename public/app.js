@@ -30,13 +30,9 @@ function populateCats(array){
     catPicture.width = 500;
     placeHolderListItem.appendChild(catPicture);
 
-
-
     unorderedListItem.appendChild(nameListItem);
     unorderedListItem.appendChild(foodListItem);
     unorderedListItem.appendChild(placeHolderListItem);
-
-
 
     var element = document.getElementById("cats");
     element.appendChild(unorderedListItem);
